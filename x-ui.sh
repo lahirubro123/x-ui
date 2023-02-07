@@ -522,7 +522,7 @@ show_menu() {
   ${GREEN}   /___/\  \         |______/ |___| ${PLAIN}
   ${GREEN}         \_/                        ${PLAIN}
   ${GREEN} --------------------Mod by Lahiru- ${PLAIN}"
-    echo -e ""
+    echo -e "
   ${green}x-ui Panel Management Script${plain}
   ${green}0.${plain} exit script
 ————————————————
