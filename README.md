@@ -42,7 +42,7 @@ xray panel supporting multi-protocol, **Multi-lang (English,Chinese)**, **IP Res
 2 - add **IP limit and Unique Email** for inbound(vmess & vless)
 
 # Enable Multi User Traffic & Exprire Day
-![Screenshot from 2022-11-15 07-43-58](https://user-images.githubusercontent.com/16622377/201922652-111ff5b8-272b-49f5-a656-d6f57d79eaed.png)
+![image](https://user-images.githubusercontent.com/72745298/217187625-34b56a71-ed5b-49f9-95b0-50a9e9bff50d.png)
 
 `!!! NO NEED TO DO THIS IF YOU HAVE FRESH INSTALL`
 
