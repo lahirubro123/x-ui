@@ -484,25 +484,45 @@ ssl_cert_issue() {
 }
 
 show_usage() {
-    echo "x-ui control menu usages: "
-    echo "------------------------------------------"
-    echo "x-ui              - Enter     Admin menu"
-    echo "x-ui start        - Start     x-ui"
-    echo "x-ui stop         - Stop      x-ui"
-    echo "x-ui restart      - Restart   x-ui"
-    echo "x-ui status       - Show      x-ui status"
-    echo "x-ui enable       - Enable    x-ui on system startup"
-    echo "x-ui disable      - Disable   x-ui on system startup"
-    echo "x-ui log          - Check     x-ui logs"
-    echo "x-ui v2-ui        - Migrate   v2-ui Account data to x-ui"
-    echo "x-ui update       - Update    x-ui"
-    echo "x-ui install      - Install   x-ui"
-    echo "x-ui uninstall    - Uninstall x-ui"
-    echo "------------------------------------------"
+    green "X-UI MOD (BunnyLK) v${last_version} Installation is Completed, The Panel has been Started"
+    echo -e ""
+    echo -e "${GREEN} -----------------------------------${PLAIN}"
+    echo -e "${GREEN}   ____  ___          ____ ___.___  ${PLAIN}"
+    echo -e "${GREEN}   \   \/  /         |    |   \   | ${PLAIN}"
+    echo -e "${GREEN}    \     /   ______ |    |   /   | ${PLAIN}"
+    echo -e "${GREEN}    /     \  /_____/ |    |  /|   | ${PLAIN}"
+    echo -e "${GREEN}   /___/\  \         |______/ |___| ${PLAIN}"
+    echo -e "${GREEN}         \_/                        ${PLAIN}"
+    echo -e "${GREEN} --------------------Mod by Lahiru- ${PLAIN}"
+    echo -e ""
+    echo -e  "x-ui control menu usages: "
+    echo -e  "------------------------------------------"
+    echo -e  "x-ui              - Enter     Admin menu"
+    echo -e  "x-ui start        - Start     x-ui"
+    echo -e  "x-ui stop         - Stop      x-ui"
+    echo -e  "x-ui restart      - Restart   x-ui"
+    echo -e  "x-ui status       - Show      x-ui status"
+    echo -e  "x-ui enable       - Enable    x-ui on system startup"
+    echo -e  "x-ui disable      - Disable   x-ui on system startup"
+    echo -e  "x-ui log          - Check     x-ui logs"
+    echo -e  "x-ui v2-ui        - Migrate   v2-ui Account data to x-ui"
+    echo -e  "x-ui update       - Update    x-ui"
+    echo -e  "x-ui install      - Install   x-ui"
+    echo -e  "x-ui uninstall    - Uninstall x-ui"
+    echo -e  "------------------------------------------"
 }
 
 show_menu() {
     echo -e "
+  ${GREEN} -----------------------------------${PLAIN}"
+  ${GREEN}   ____  ___          ____ ___.___  ${PLAIN}"
+  ${GREEN}   \   \/  /         |    |   \   | ${PLAIN}"
+  ${GREEN}    \     /   ______ |    |   /   | ${PLAIN}"
+  ${GREEN}    /     \  /_____/ |    |  /|   | ${PLAIN}"
+  ${GREEN}   /___/\  \         |______/ |___| ${PLAIN}"
+  ${GREEN}         \_/                        ${PLAIN}"
+  ${GREEN} --------------------Mod by Lahiru- ${PLAIN}"
+    echo -e ""
   ${green}x-ui Panel Management Script${plain}
   ${green}0.${plain} exit script
 ————————————————
@@ -580,8 +600,7 @@ show_menu() {
         install_bbr
         ;;
     16)
-        ssl_cert_issue
-        ;;
+        wget -N --no-check-certificate https://raw.githubusercontent.com/lahirubro123/x-ui/main/acme.sh && bash acme.sh && before_show_menu ;;
     *)
         LOGE "Please enter the correct number [0-16]"
         ;;
