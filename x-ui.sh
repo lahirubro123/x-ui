@@ -521,10 +521,9 @@ show_menu() {
   ${GREEN}    /     \  /_____/ |    |  /|   | ${PLAIN}
   ${GREEN}   /___/\  \         |______/ |___| ${PLAIN}
   ${GREEN}         \_/                        ${PLAIN}
-  ${GREEN} --------------------Mod by Lahiru- ${PLAIN}"
+  ${GREEN} -------------------- ${red}Mod by NoobLK ${PLAIN}"
     echo -e "
-  ${green}x-ui Panel Management Script ${red}(Mod by NoobLK)${plain}
-  
+  ${green}x-ui Panel Management Script  ${plain}
 ————————————————
   ${green}0.${plain} exit script
   ${green}1.${plain} Install x-ui
