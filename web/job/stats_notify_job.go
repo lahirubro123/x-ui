@@ -226,7 +226,6 @@ func (j *StatsNotifyJob) getClientUsage(id string) string {
 	traffic , err := j.inboundService.GetClientTrafficById(id)
 	if err != nil {
 		logger.Warning(err)
-		return ""
 	}
 	expiryTime := ""
 	if traffic.ExpiryTime == 0 {
