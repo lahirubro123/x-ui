@@ -514,13 +514,13 @@ show_usage() {
 
 show_menu() {
     echo -e "
-  ${GREEN} -----------------------------------${PLAIN}"
-  ${GREEN}   ____  ___          ____ ___.___  ${PLAIN}"
-  ${GREEN}   \   \/  /         |    |   \   | ${PLAIN}"
-  ${GREEN}    \     /   ______ |    |   /   | ${PLAIN}"
-  ${GREEN}    /     \  /_____/ |    |  /|   | ${PLAIN}"
-  ${GREEN}   /___/\  \         |______/ |___| ${PLAIN}"
-  ${GREEN}         \_/                        ${PLAIN}"
+  ${GREEN} -----------------------------------${PLAIN}
+  ${GREEN}   ____  ___          ____ ___.___  ${PLAIN}
+  ${GREEN}   \   \/  /         |    |   \   | ${PLAIN}
+  ${GREEN}    \     /   ______ |    |   /   | ${PLAIN}
+  ${GREEN}    /     \  /_____/ |    |  /|   | ${PLAIN}
+  ${GREEN}   /___/\  \         |______/ |___| ${PLAIN}
+  ${GREEN}         \_/                        ${PLAIN}
   ${GREEN} --------------------Mod by Lahiru- ${PLAIN}"
     echo -e ""
   ${green}x-ui Panel Management Script${plain}
