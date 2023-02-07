@@ -129,29 +129,6 @@ docker run -itd --network=host \
     lahirubro123/x-ui:latest
 ```
 
-> Build your own image
-
-```shell
-docker build -t x-ui .
-```
-
-## SSL certificate application
-
-> This feature and tutorial are provided by [FranzKafkaYu](https://github.com/FranzKafkaYu)
-
-The script has a built-in SSL certificate application function. To use this script to apply for a certificate, the following conditions must be met:
-
-- Know the Cloudflare registered email
-- Know the Cloudflare Global API Key
-- The domain name has been resolved to the current server through cloudflare
-
-How to get the Cloudflare Global API Key:
-    ![](media/bda84fbc2ede834deaba1c173a932223.png)
-    ![](media/d13ffd6a73f938d1037d0708e31433bf.png)
-
-When using, just enter `email`, `domain`, `API KEY` and the schematic diagram is as follows：
-        ![](media/2022-04-04_141259.png)
-
 Precautions:
 
 - The script uses DNS API for certificate request
@@ -193,18 +170,3 @@ More features are planned...
 - Ubuntu 16+
 - Debian 8+
 
-# common problem
-
-## Migrating from v2-ui
-
-First install the latest version of x-ui on the server where v2-ui is installed, and then use the following command to migrate, which will migrate the native v2-ui `All inbound account data` to x-ui，`Panel settings and username passwords are not migrated`
-
-> Please `Close v2-ui` and `restart x-ui`, otherwise the inbound of v2-ui will cause a `port conflict with the inbound of x-ui`
-
-```
-x-ui v2-ui
-```
-
-## Stargazers over time
-
-[![Stargazers over time](https://starchart.cc/lahirubro123/x-ui.svg)](https://starchart.cc/lahirubro123/x-ui)
